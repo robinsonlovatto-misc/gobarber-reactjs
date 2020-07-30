@@ -3,6 +3,7 @@ import SignIn from './pages/Signin';
 // import SignUp from './pages/SignUp';
 import GlobalStyle from './styles/global';
 
+import ToastContainer from './componentes/ToastContainer';
 import { AuthProvider } from './hooks/AuthContext';
 
 const App: React.FC = () => (
@@ -11,6 +12,7 @@ const App: React.FC = () => (
       <SignIn />
     </AuthProvider>
 
+    <ToastContainer />
     <GlobalStyle />
   </>
 );
