@@ -1,7 +1,5 @@
 import { shade } from 'polished';
 import styled from 'styled-components';
-// import ArrowLeftIcon from '../../assets/ArrowLeftIcon.svg';
-// import ArrowRightIcon from '../../assets/ArrowRightIcon.svg';
 
 export const Container = styled.div``;
 
@@ -159,11 +157,15 @@ export const Section = styled.section`
     padding-bottom: 16px;
     margin-bottom: 16px;
   }
+
+  > p {
+    color: #999591;
+  }
 `;
 
 export const Appointment = styled.div`
   display: flex;
-  margin-right: 8px;
+  align-items: center;
 
   /* that means the property is only applied on divs that follows an appointment component */
   & + div {
@@ -175,6 +177,7 @@ export const Appointment = styled.div`
     display: flex;
     align-items: center;
     color: #f4ede8;
+    width: 70px;
 
     svg {
       color: #ff9000;
