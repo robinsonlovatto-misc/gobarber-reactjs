@@ -2,9 +2,6 @@
 
 This project is a marketplace for barber shops. It was the main project on Rocketseat's Bootcamp.
 
-### Features:
-  - Sign in, sign up and sign out
-  - More is coming
 
 ### Tech:
 
@@ -13,7 +10,7 @@ This project is a marketplace for barber shops. It was the main project on Rocke
 
 ### Setup:
   - Run the Node.js app for the back-end: [gobarber-nodejs](https://github.com/rlovatto/gobarber-nodejs)
-  - Run the command to install all dependencies
+  - Run the command to install all dependencies:
   ```  
 yarn
 ```
@@ -27,3 +24,4 @@ yarn
 [gobarber-nodejs](https://github.com/rlovatto/gobarber-nodejs)
 
 <br/><br/>
+![](gobarber_react.gif)
