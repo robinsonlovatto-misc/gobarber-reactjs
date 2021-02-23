@@ -1,7 +1,7 @@
 # GoBarber - Front-end
 
 This project is a marketplace for barber shops. It was the main project on Rocketseat's Bootcamp.
-
+In the front-end is not possible to create appointments.
 
 ### Tech:
 
@@ -23,5 +23,12 @@ yarn
 
 [gobarber-nodejs](https://github.com/rlovatto/gobarber-nodejs)
 
+
 <br/><br/>
-![](gobarber_react.gif)
+### Sign-up:
+![](signup.gif)
+
+
+<br/><br/>
+### List appointments:
+![](list_appointments.gif)
